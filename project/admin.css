@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    padding: 1%;
+    width: 80%;
+}
+.text-center{
+    text-align: center;
+}
+.padding1{
+    padding: 1%;
+}
+/* css for header start here */
+.a-menu{
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+.a-nav{
+    list-style: none;
+}
+.a-menu ul li{
+    display: inline-block;
+    padding: 1%;
+}
+.a-menu ul li:hover{
+    
+    transform:scale(1.1);
+}
+.a-menu ul li a{
+    text-decoration: none;
+    color: #ff4757;
+    font-weight:bold;
+    
+}
+.a-menu ul li a:hover{
+    color: #ff6b81;
+    background-color: rgb(34, 146, 146);
+    
+}
+/* css for header end here */
+
+/* css for main content start here */
+.a-main{
+    /* margin: 1% 0; */
+    background-color: #f1f2f6;
+}
+.table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    /* background-image: url("./pics/src_result.jpg") ; */
+}
+.t{
+    /* text:bolder; */
+    text-align:center;
+    border: 1px solid black;
+    padding: 4px; 
+}
+/* css for main content end here */
+
+/* css for a-footer start here */
+.a-footer{
+    background-color: #636e72;
+    color:whitesmoke;
+}
+/* css for a-footer end here */
+/* css for admin page start here */
+.a-m-t{
+    width: 100%; border-collapse: collapse;
+}
+.a-m-t tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+.a-m-t tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: #1e90ff;
+    text-decoration: none;
+    padding: 1%;
+    color:white;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+.btn-danger{
+    background-color: #ff6b81;
+    text-decoration: none;
+    padding: 1%;
+    color:white;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+.btn-secondary{
+    background-color: #36724d;
+    text-decoration: none;
+    padding: 1%;
+    color:white;
+    font-weight: bold;
+    margin-top: 1%;
+}
+.btn-secondary:hover{
+    background-color: #37a850;
+}
+/* css for admin page end here */
+
+/* css for add admin start here */
+.tbl-30{
+    width: 30%;
+}
+.success{
+    color:#2ed573;
+}
+
+/* css for add admin end here */
+
+/* css for delete admin start here */
+.error{
+    color:#ff4757;
+}
+
+/* css for delete admin end here */
+
